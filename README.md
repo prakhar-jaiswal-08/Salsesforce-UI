@@ -19,4 +19,4 @@ A frontend clone of the Salesforce homepage built using HTML and CSS.
 
 ## Live Demo
 
-https://prakhar-jaiswal-08.github.io/Salesforce-UI/
+ https://prakhar-jaiswal-08.github.io/Salsesforce-UI/
