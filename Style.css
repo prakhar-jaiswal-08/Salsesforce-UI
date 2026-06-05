@@ -300,3 +300,72 @@ html, body{
 #header{
     z-index: 9999;
 }
+@media (max-width: 768px){
+
+    #header{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .texts,
+    #contactDetails,
+    .icons,
+    #login{
+        display: none;
+    }
+
+    #fakeHeader{
+        height: 90px;
+    }
+
+    #content{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #box1,
+    #box2{
+        width: 95%;
+        height: auto;
+    }
+
+    #box1 h1{
+        font-size: 35px;
+    }
+
+    #box1 p{
+        font-size: 18px;
+    }
+
+    #btns{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btn1,
+    #btn2{
+        width: 90%;
+    }
+
+    #heading h1{
+        font-size: 28px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #page1,
+    #page2{
+        height: auto;
+    }
+}
